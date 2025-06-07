@@ -39,7 +39,7 @@ function searchProduct() {
 
   const product = productsCache.find(
     (p) =>
-      p.id == searchValue || p.code.toLowerCase() === searchValue.toLowerCase()
+      p.code == searchValue || p.code.toLowerCase() === searchValue.toLowerCase()
   );
 
   if (product) {

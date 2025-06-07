@@ -4,7 +4,7 @@
     "name": "Arroz",
     "code": "A01",
     "price": 3000,
-    "quantity": 29
+    "quantity": 16
   },
   {
     "id": 2,
@@ -33,19 +33,5 @@
     "code": "F01",
     "price": 4000,
     "quantity": 40
-  },
-  {
-    "id": 6,
-    "quantity": "1",
-    "name": "wqw",
-    "code": "222",
-    "price": "1500"
-  },
-  {
-    "id": 7,
-    "quantity": "56",
-    "name": "ryrt",
-    "code": "4563",
-    "price": "34563"
   }
 ]
