@@ -4,14 +4,14 @@
     "name": "Arroz",
     "code": "A01",
     "price": 3000,
-    "quantity": 39
+    "quantity": 29
   },
   {
     "id": 2,
     "name": "Leche",
     "code": "L01",
     "price": 5000,
-    "quantity": 30
+    "quantity": 29
   },
   {
     "id": 3,
@@ -40,5 +40,12 @@
     "name": "wqw",
     "code": "222",
     "price": "1500"
+  },
+  {
+    "id": 7,
+    "quantity": "56",
+    "name": "ryrt",
+    "code": "4563",
+    "price": "34563"
   }
 ]

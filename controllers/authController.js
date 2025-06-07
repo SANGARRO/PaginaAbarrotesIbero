@@ -25,7 +25,7 @@ router.post("/login", async (req, res) => {
         <body>
           <nav>
             <div>
-              <img src="https://img.freepik.com/vector-gratis/plantilla-abstracta-fondo-ondulado_1035-8922.jpg?semt=ais_items_boosted&w=740" alt="Logo" style="height: 50px;" />
+              <img src="https://png.pngtree.com/png-vector/20240913/ourlarge/pngtree-round-logo-design-png-image_13831309.png" alt="Logo" style="height: 50px;" />
             </div>
 
             <div>
