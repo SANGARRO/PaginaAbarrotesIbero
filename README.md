@@ -1,5 +1,7 @@
 al clonar ejecuta
 
+debes tener instalado node
+
 npm install
 
 npm start
