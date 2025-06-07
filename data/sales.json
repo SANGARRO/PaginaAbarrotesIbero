@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1749260292638,
+    "items": [
+      {
+        "id": 6,
+        "quantity": "1",
+        "name": "wqw",
+        "code": "222",
+        "price": "1500"
+      },
+      {
+        "id": 5,
+        "name": "Frijoles",
+        "code": "F01",
+        "price": 4000,
+        "quantity": 40
+      }
+    ],
+    "total": "015004000",
+    "date": "2025-06-07T01:38:12.638Z"
+  },
+  {
+    "id": 1749261501775,
+    "items": [
+      {
+        "id": 1,
+        "name": "Arroz",
+        "code": "A01",
+        "price": 3000,
+        "quantity": 50
+      },
+      {
+        "id": 2,
+        "name": "Leche",
+        "code": "L01",
+        "price": 5000,
+        "quantity": 30
+      }
+    ],
+    "total": 8000,
+    "date": "2025-06-07T01:58:21.775Z"
+  },
+  {
+    "id": 1749263142330,
+    "items": [
+      {
+        "id": 1,
+        "name": "Arroz",
+        "code": "A01",
+        "price": 3000,
+        "quantity": 11
+      }
+    ],
+    "total": 33000,
+    "date": "2025-06-07T02:25:42.330Z"
+  }
+]

@@ -1,0 +1,65 @@
+<head>
+  <title>Ventas</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <nav>
+    <div>
+      <img
+        src="https://img.freepik.com/vector-gratis/plantilla-abstracta-fondo-ondulado_1035-8922.jpg?semt=ais_items_boosted&w=740"
+        alt="Logo"
+        style="height: 50px"
+      />
+    </div>
+    <div>
+      <a href="/historial">Historial</a>
+      <a href="/inventario">Inventario</a>
+      <a href="#">Manual</a>
+      <a href="#">Perfil</a>
+      <a
+        href="/logout"
+        onclick="return confirm('¿Seguro que quieres cerrar sesión?')"
+        >Cerrar sesión</a
+      >
+    </div>
+  </nav>
+  <div class="container">
+    <div class="card">
+      <h3>Buscar Producto</h3>
+      <div style="display: flex; gap: 10px; align-items: center">
+        <input
+          type="text"
+          id="product-search"
+          placeholder="Ingresa ID o código del producto"
+          style="flex: 1"
+        />
+        <button onclick="searchProduct()" style="padding: 0.7rem 1.5rem">
+          Buscar
+        </button>
+      </div>
+      <p style="color: #666; font-size: 0.9rem; margin-top: 10px">
+        Tip: Puedes buscar por ID (ejemplo: 1) o por código (ejemplo: A01)
+      </p>
+    </div>
+
+    <div id="found-product"></div>
+
+    <div class="card">
+      <h3>Carrito de Compras</h3>
+      <ul id="cart-list"></ul>
+      <div
+        style="margin-top: 1rem; padding-top: 1rem; border-top: 1px solid #333"
+      >
+        <strong>Total: $<span id="total">0.00</span></strong>
+        <br />
+        <button
+          onclick="finalizePurchase()"
+          style="margin-top: 10px; width: 100%"
+        >
+          Finalizar Compra
+        </button>
+      </div>
+    </div>
+  </div>
+  <script src="/js/sales.js"></script>
+</body>

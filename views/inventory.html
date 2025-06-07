@@ -1,0 +1,37 @@
+<head>
+  <title>Inventario</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <nav>
+    <div>
+      <img
+        src="https://img.freepik.com/vector-gratis/plantilla-abstracta-fondo-ondulado_1035-8922.jpg?semt=ais_items_boosted&w=740"
+        alt="Logo"
+        style="height: 50px"
+      />
+    </div>
+    <div>
+      <a href="/historial">Historial</a>
+      <a href="/inventario">Inventario</a>
+      <a href="#">Manual</a>
+      <a href="#">Perfil</a>
+      <a
+        href="/logout"
+        onclick="return confirm('¿Seguro que quieres cerrar sesión?')"
+        >Cerrar sesión</a
+      >
+    </div>
+  </nav>
+  <div class="container">
+    <form action="/api/products" method="POST">
+      <input type="number" name="quantity" placeholder="Cantidad" required />
+      <input type="text" name="name" placeholder="Nombre" required />
+      <input type="text" name="code" placeholder="Código" required />
+      <input type="text" name="price" placeholder="Precio" required />
+      <button type="submit">Agregar</button>
+    </form>
+    <div id="product-list"></div>
+  </div>
+  <script src="/js/script.js"></script>
+</body>

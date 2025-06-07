@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Arroz",
+    "code": "A01",
+    "price": 3000,
+    "quantity": 39
+  },
+  {
+    "id": 2,
+    "name": "Leche",
+    "code": "L01",
+    "price": 5000,
+    "quantity": 30
+  },
+  {
+    "id": 3,
+    "name": "Pan",
+    "code": "P01",
+    "price": 2000,
+    "quantity": 100
+  },
+  {
+    "id": 4,
+    "name": "Huevos",
+    "code": "H01",
+    "price": 15000,
+    "quantity": 25
+  },
+  {
+    "id": 5,
+    "name": "Frijoles",
+    "code": "F01",
+    "price": 4000,
+    "quantity": 40
+  },
+  {
+    "id": 6,
+    "quantity": "1",
+    "name": "wqw",
+    "code": "222",
+    "price": "1500"
+  }
+]
