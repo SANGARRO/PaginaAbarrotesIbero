@@ -1,8 +1,9 @@
 body {
   font-family: "Segoe UI", sans-serif;
   background-color: #0d1117;
-  color: #c9d1d9;
+  color: #ffffff;
   margin: 0;
+  padding: 0;
 }
 
 nav {
@@ -14,57 +15,143 @@ nav {
 }
 
 nav a {
-  color: #58a6ff;
+  color: #ffffff;
   margin: 0 1rem;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+nav a:hover {
+  color: #58a6ff;
+}
+
+nav img {
+  height: 40px;
 }
 
 .container {
   padding: 2rem;
-  max-width: 800px;
+  max-width: 1200px;
   margin: auto;
+}
+
+form {
+  background-color: #161b22;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #00000033;
 }
 
 form input,
 form button {
-  padding: 0.7rem;
+  padding: 0.8rem;
   margin: 0.5rem 0;
   width: 100%;
   font-size: 1rem;
-  border-radius: 5px;
-  border: none;
+  border-radius: 6px;
+  border: 1px solid #30363d;
 }
 
 form input {
-  background-color: #21262d;
-  color: #c9d1d9;
+  background-color: #0d1117;
+  color: #ffffff;
 }
 
 form button {
-  background-color: #238636;
-  color: white;
+  background-color: #044ebd;
+  color: #ffffff;
+  font-weight: bold;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #044ebd;
   cursor: pointer;
 }
 
 .card {
   background-color: #161b22;
-  padding: 1rem;
-  margin: 1rem 0;
-  border-radius: 0.5rem;
-  box-shadow: 0 0 10px #00000050;
-  transition: 0.3s;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+  box-shadow: 0 0 10px #00000022;
+  transition: transform 0.2s ease;
 }
 
 .card:hover {
+  transform: scale(1.01);
+}
+
+button {
+  border: none;
+  background-color: #21262d;
+  color: white;
+  padding: 0.7rem 1.2rem;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #30363d;
+}
+
+.product-card {
+  background-color: #21262d;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 0 5px #00000040;
+  transition: 0.3s;
+}
+
+.product-card:hover {
   transform: scale(1.02);
 }
 
-.card h3 {
-  margin-top: 0;
+h1,
+h2,
+h3,
+h4 {
+  color: #ffffff;
+  margin-bottom: 1rem;
 }
 
-ul {
-  list-style: none;
-  padding-left: 0;
+p,
+label {
+  color: #c9d1d9;
+}
+
+strong {
+  color: #58a6ff;
+}
+
+input::placeholder {
+  color: #8b949e;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.grid-3 {
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.mt-2 {
+  margin-top: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 1rem;
 }
