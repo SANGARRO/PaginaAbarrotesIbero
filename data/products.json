@@ -4,7 +4,7 @@
     "name": "Arroz",
     "code": "A01",
     "price": 3000,
-    "quantity": 16
+    "quantity": 1
   },
   {
     "id": 2,
@@ -33,5 +33,19 @@
     "code": "F01",
     "price": 4000,
     "quantity": 40
+  },
+  {
+    "id": 6,
+    "quantity": 82,
+    "name": "arveja",
+    "code": "2as",
+    "price": "3000"
+  },
+  {
+    "id": 7,
+    "quantity": 440,
+    "name": "espinaca en lata",
+    "code": "3fr",
+    "price": "1200"
   }
 ]

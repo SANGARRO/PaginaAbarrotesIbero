@@ -47,5 +47,47 @@
     ],
     "total": 39000,
     "date": "2025-06-07T03:02:52.252Z"
+  },
+  {
+    "id": 1749345068325,
+    "items": [
+      {
+        "id": 6,
+        "name": "arveja",
+        "code": "2as",
+        "price": "3000",
+        "quantity": 40
+      },
+      {
+        "id": 1,
+        "name": "Arroz",
+        "code": "A01",
+        "price": 3000,
+        "quantity": 12
+      }
+    ],
+    "total": 156000,
+    "date": "2025-06-08T01:11:08.325Z"
+  },
+  {
+    "id": 1749345732119,
+    "items": [
+      {
+        "id": 7,
+        "name": "espinaca en lata",
+        "code": "3fr",
+        "price": "1200",
+        "quantity": 60
+      },
+      {
+        "id": 1,
+        "name": "Arroz",
+        "code": "A01",
+        "price": 3000,
+        "quantity": 3
+      }
+    ],
+    "total": 81000,
+    "date": "2025-06-08T01:22:12.119Z"
   }
 ]
